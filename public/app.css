@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "SpaceGrotesk";
+    src: url("fonts/SpaceGrotesk.woff2");
+}
+
+body {
+    font-family: "SpaceGrotesk";
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #292B2F;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ======================================================================== homepage upper part =========== */
+
+.homepage-main-text-searchbar-space {
+    position: relative;
+    height: 596px;
+    background: url("images/home-image.png") no-repeat;
+    background-size: 100%;
+}
+
+.homepage-main-text-searchbar-container {
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.homepage-main-text-container {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.homepage-main-text {
+    margin: auto;
+    width: fit-content;
+}
+
+.searchbar-container {
+    width: 595px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.searchbar-container input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    width: 484px;
+    font-size: 24px;
+} 
+
+.searchbar-container img {
+    position: relative;
+    height: 41px;
+    width: 41px;
+    padding-left: 20px;
+    padding-right: 12px;
+    top: 12px;
+}
+
+/* ======================================================================== homepage lower part =========== */
+
+.homepage-cards-space {
+    padding-top: 93px;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.homepage-card {
+    width: 422.4px;
+    padding-bottom: 13px;
+    margin-right: 42px;
+    background-color: #7C7C7C;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
+.homepage-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.homepage-card-top {
+    height: 85px;
+    padding-left: 9px;
+    background-color: #525252;
+    border-radius: 5px;
+}
+
+.homepage-card img {
+    width: 125px;
+    height: 71px;
+    margin-top: 7px;
+    background-color: #2e2e2e;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.homepage-card-name-slot-container {
+    overflow: hidden;
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+.homepage-card-name {
+    font-size: 24px;
+    font-weight: lighter;
+    padding-bottom: 12px;
+}
+
+.homepage-card-bootcamp-slots {
+    background-color: #7C7C7C;
+    padding: 3px 3px 3px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.homepage-bootcamp-slots-number {
+    background-color: #A9A9A9;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.homepage-bootcamp-slots-joined {
+    padding: 1px;
+}
+
+.homepage-card-bottom {
+    font-size: 15px;
+    padding: 13px 5px 60px 15px;
+}
+
+.homepage-card-bottom p {
+    margin: 0;
+}
+
+.homepage-card form{
+    margin: 0;
+}
+
+.homepage-card-join-button {
+    position: relative;
+    left: 244px;
+    font-family: "SpaceGrotesk";
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    padding: 4px 7px;
+    border-radius: 5px;
+	border: none;
+    background-color: #A9A9A9;
+}

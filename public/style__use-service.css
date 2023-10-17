@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lexend';
+    color : white;
+}
+
+main{
+    display:flex;
+    justify-content : center;
+    width : 100%;
+    height : 100vh;
+}
+
+body{
+    background-image: url("images/half-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #292B2F;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
+header{
+    margin-top : 15px;
+}
+
+ul{
+    list-style-type: none; 
+    display : flex;
+}
+
+.flex-center{
+    display : flex;
+    justify-content : center;
+}
+
+.flex-between{
+    display : flex;
+    justify-content : space-between;
+}
+
+.align-center{
+    text-align : center;
+    font-family: 'Space Grotesk';
+}
+
+.align-mid{
+    display : flex;
+    align-items : center;
+}
+
+.nav-item{
+    padding : 10px 25px;
+}
+
+.nav-link{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.active{
+    color : red;
+}
+
+.nav-link:hover{
+    color : red;
+    transition: 0.5s;
+}
+
+.pembungkus-main{
+    width : 1440px;
+    margin-top : 30px;
+}
+
+.input-form2{
+    border-radius : 10px;
+    margin-top : 30px;
+    padding : 13px;
+    width : 394px;
+    font-size : 22px;
+    color : white;
+    background-color: #2E4F4F;
+    border : none;
+}
+
+.tombol-submit-div{
+    margin-top : 30px;
+    padding : 10px;
+    background-color: #2E4F4F;
+    border-radius : 10px;
+    border : none;
+    width : 394px;
+}
+
+.tombol-submit{
+    font-size : 22px;
+    color : white;
+    padding : 0 100px;
+    text-decoration : none;
+    text-align : center;
+}
+
+.box-kiri{
+    margin-left : 114px;
+}
+
+.box-kanan{
+    margin-right : 114px;
+}
+.custom-upload{
+    width : 394px;
+    font-size : 22px;
+    background-color: #2E4F4F;
+    border : none;
+    border-radius : 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+::placeholder{
+    color : rgb(171, 171, 171)
+}
+
+.description{
+    height : 250px;
+    resize: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.image-kanan{
+    width : 300px;
+    height : 300px;
+}
+
+.tulisan-kanan{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+/* popup */
+.back-hitam{
+    position: fixed;
+    width : 100%;
+    height : 100%;
+    background: rgba(0, 0, 0, 0.516);
+    visibility: hidden;
+    display : flex;
+    justify-content : center;
+    align-items:center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.back-hitam:target {
+    visibility: visible;
+}
+
+.back-popup{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    padding : 10px;
+    width : 110px;
+    text-align : center;
+    background-color: #5e5e5eb8;
+    text-decoration : none;
+    border-radius : 20px;
+    border: 1px solid #000000;
+}
+
+.back-popup:hover{
+    background-color: #3c3c3cb8;
+    transition : 0.2s
+}
+
+.kotak{
+    width : 50%;
+    padding : 15px;
+    border : 2px solid #fefefe;
+    background-color : #ffffff;
+    border-radius : 30px;
+}
+
+.tulisan-popup{
+    color : black;
+    text-align : justify;
+    size : 24px;
+    padding : 20px;
+}
+
+footer{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top : 50px;
+    margin-left : 50px;
+    margin-right: 50px;
+}
+
+.nav-link-footer{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color : white
+}
+
+.judul-ocamp{
+    font-size : 28px;
+    margin-left : 15px;
+}

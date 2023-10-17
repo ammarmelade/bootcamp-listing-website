@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Lexend;
+    color : white;
+}
+
+p{
+    margin : 0px;
+}
+
+main{
+    display:flex;
+    justify-content : center;
+    width : 100%;
+    margin-top : 50px;
+}
+
+body{
+    background-color: #292B2F;
+    /* padding-left : 10px;
+    padding-right : 10px; */
+}
+
+header{
+    margin-top : 15px;
+}
+
+ul{
+    list-style-type: none; 
+    display : flex;
+}
+
+.flex{
+    display : flex;
+}
+
+.ml-5{
+    margin-left : 10px;
+}
+
+.align-mid{
+    display : flex;
+    align-items: center;
+}
+
+.flex-center{
+    display : flex;
+    justify-content : center;
+}
+
+.flex-between{
+    display : flex;
+    justify-content : space-between;
+}
+
+.align-center{
+    text-align : center;
+    font-family: 'Space Grotesk';
+}
+
+.nav-item{
+    padding : 10px 25px;
+}
+
+.nav-link{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.active{
+    color : red;
+}
+
+.nav-link:hover{
+    color : red;
+    transition: 0.5s;
+}
+
+.mt-30{
+    margin-top : 30px;
+}
+
+.pembungkus-main{
+    width : 1440px;
+}
+
+.bg-img{
+    background-image: url("images/bg-bootcamp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width : 100%;
+    height : 600px;
+}
+
+.search{
+    margin-top : 200px;
+    display : flex;
+    justify-content: center;
+}
+
+.custom-upload{
+    background-color: white;
+    color : black
+}
+
+.input-form{
+    width: 595px;
+    padding : 15px 30px;
+    font-size : 20px;
+    color : rgb(74, 74, 74);
+    border-radius : 15px;
+}
+
+.suspend{
+    width: 408.62px;
+    height: 262px;
+    /* background: #7C7C7C; */
+    border-radius: 5px;
+}
+
+.box-atas-kecil{
+    height: 85px;
+    width: 408.61541748046875px;
+    border-radius: 5px;
+    background-color: #525252;
+}
+
+.angka{
+    height: 23px;
+    border-radius: 5px;
+    background: #A9A9A9;
+    display: flex;
+    align-items: center;
+    padding : 5px;
+}
+
+.tulisan-joined{
+    background: #7C7C7C;
+    border-radius: 5px;
+}
+
+.jumlah{
+    font-family: 'Space Grotesk';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    font-style: normal;
+    color: #ffffff;
+    width: 19px;
+}
+
+.tulisan{
+    margin-left : 7px;
+    width: 50px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.keterangan-bootcamp{
+    margin-left : 15px;
+}
+
+.keterangan-bootcamp-2{
+    margin-left : 15px;
+    display : flex;
+    align-items: center;
+}
+
+.bintang{
+    margin-left : 30px;
+}
+
+.isi-bootcamp{
+    margin : 20px 15px;
+    text-align: justify;
+}
+
+.isi-bootcamp-2{
+    margin : 10px 15px;
+}
+
+.footer-bootcamp{
+    text-align: right;
+    margin : 20px 10px;
+    color : black;
+    font-weight : bold;
+}
+
+.desc{
+    background-color : #454545;
+    border-radius : 5px;
+    text-align : justify;
+    padding : 10px;
+    font-size : 14px;
+    margin-top : 10px;
+}
+
+.mr-20{
+    margin-right : 20px;
+}
+
+.mr-5{
+    margin-right : 5px;
+}
+
+.flex-end{
+    display : flex;
+    flex-direction : row-reverse;
+}
+
+.join-bootcamp{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    padding : 5px;
+    color : white;
+    background-color : blue;
+    border-radius: 10px;
+    margin-top : 10px;
+}
+
+.flip-card {
+    perspective: 1000px;
+  }
+  
+.flip-card-inner {
+    position: relative;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    color: black;
+    background-color: #7C7C7C;
+    height: 262px;
+}
+
+.flip-card-back {
+    color: white;
+    background-color: #7C7C7C;
+    transform: rotateY(180deg);
+    height: 262px;
+}
+
+footer{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top : 50px;
+    margin-left : 50px;
+    margin-right: 50px;
+}
+
+.nav-link-footer{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color : white
+}
+
+.judul-ocamp{
+    font-size : 28px;
+    margin-left : 15px;
+}

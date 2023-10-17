@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Lexend;
+    color : white;
+}
+
+main{
+    display:flex;
+    justify-content : center;
+    width : 100%;
+}
+
+body{
+    background-color: #292B2F;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
+header{
+    margin-top : 15px;
+}
+
+ul{
+    list-style-type: none; 
+    display : flex;
+}
+
+.flex-center{
+    display : flex;
+    justify-content : center;
+}
+
+.flex-between{
+    display : flex;
+    justify-content : space-between;
+}
+
+.align-center{
+    text-align : center;
+    font-family: 'Space Grotesk';
+}
+
+.pembungkus-main{
+    width : 1440px;
+}
+
+.atas{
+    margin: 20px;
+    margin-bottom : 50px;
+    display : flex;
+    align-items : center;
+}
+
+.gambar-1{
+    width : 50px;
+    height : 50px;
+}
+
+.hr{
+    border:1px solid #ffffff;
+    margin-bottom : 30px;
+}
+
+.keterangan{
+    background-color : #767676;
+    border-radius : 15px;
+    padding : 15px;
+    margin-bottom : 20px;
+}
+
+.jumlah{
+    width : 200px;
+}
+
+.tulisan{
+    font-size : 20px;
+    font-weight: bold;
+    font-family: 'Space Grotesk';
+}
+
+.green{
+    color : green;
+}
+
+.red{
+    color : red;
+}
+
+.judul-tanggal{
+    margin-bottom : 15px;
+}
+
+.satu-hari{
+    margin-bottom : 30px;
+}
+
+.tulisan-atas{
+    text-decoration : none;
+    color : white;
+    font-size : 20px;
+}

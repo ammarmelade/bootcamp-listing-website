@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lexend';
+    color : white;
+}
+
+body{
+    background-image: url("images/Background\ Image.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #292B2F;
+    /* padding-left : 10px;
+    padding-right : 10px; */
+    /* height : 100%; */
+}
+
+main{
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    width : 100%;
+    height : 100vh;
+}
+
+header{
+    margin-top : 15px;
+}
+
+ul{
+    list-style-type: none; 
+    display : flex;
+}
+
+.flex-center{
+    display : flex;
+    justify-content : center;
+}
+
+.flex-between{
+    display : flex;
+    justify-content : space-between;
+}
+
+.align-center{
+    text-align : center;
+    font-family: 'Space Grotesk';
+}
+
+.align-mid{
+    display : flex;
+    align-items : center;
+}
+
+.nav-item{
+    padding : 10px 25px;
+}
+
+.nav-link{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.active{
+    color : red;
+}
+
+.nav-link:hover{
+    color : red;
+    transition: 0.5s;
+}
+
+.pembungkus-main{
+    width : 1440px;
+    margin-top : 30px;
+}
+
+.container-atas{
+    width: 1440px;
+    height: 156px;
+    display: flex;
+}
+
+.gambar-setting{
+    margin-top: 99px;
+    margin-left: 920px;
+}
+
+.tulisan{
+    margin-top: 99px;
+    margin-left: 122px;
+    font-size: 45px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    line-height: 58px;
+}
+
+.container-tengah{
+    margin-top: 26px;
+    margin-left: 114px;
+    width: 781px;
+    height: 387px;
+    background: #223C3C;
+    border-radius: 35px;
+    display: flex;
+}
+
+.box-kiri{
+    display: flex;
+}
+
+.box-atas{
+    display: flex;
+}
+
+.box-luar{
+    display: flex;
+    flex-direction: column;
+}
+
+.gambar-orang{
+    margin-left: 37px;
+    width: 75px;
+    height: 78px;
+    margin-top: 30px;
+}
+
+.deskripsi{
+    margin-left: 19px;
+    margin-top: 24px;
+}
+
+.kotak-info{
+    width: 744px;
+    height: 209px;
+    background: #2d5252;
+    border-radius: 19px;
+    margin-top: 52px;
+    margin-left: 18.5px;
+}
+
+.garis-lurus{
+    border: 3px solid rgba(255,255,255,0.3);
+    transform: matrixx(1,0,0,1,0,0);
+    height: 0px;
+    width: 575px;
+}
+
+.info{
+    padding : 10px 20px;
+    font-size: 24px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.box-kanan{
+    background: #386060;
+    width: 444px;
+    height: 196px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.wadah-atas{
+    display: flex;    
+}
+
+.e-wallet{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 41px;
+    margin-top: 31px;
+    margin-left: 66px;
+}
+
+.jumlah-uang{
+    display: flex;
+}
+
+.RP{
+    margin-left: 66px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 41px;
+}
+
+.uang{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 41px;
+    margin-left: 8px;
+}
+
+.gambar-cash{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.wadah-tengah{
+    width: 300px;
+    height: 114px;
+    margin-left: 72px;
+    margin-top: 45px;
+    background: #2d5252;
+    border-radius: 8px;
+    display: flex;
+}
+
+.topup{
+    width: 59px;
+    height: 59px;
+    background: #779690;
+    border-radius: 10px;
+    margin-left: 42px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gambar-topup{
+    margin-top: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 35px;
+    background-image: #223c3c;
+    margin-left: 14px;
+}
+
+.penulisan{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Space Grotesk';
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 7px;
+    line-height: 19px;
+    width: 50px;
+}
+
+.garis{
+    width: 70px;
+    height: 0px;
+    margin-top: 60px;
+    margin-left: 40px;
+    transform: rotate(90deg);
+}
+
+.history{
+    width: 59px;
+    height: 59px;
+    background: #779690;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gambar-history{
+    margin-top: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 35px;
+    background-image: #223c3c;
+    margin-left: 14px;
+}
+
+.container-luar{
+    background: #223C3C;
+    border-radius: 15px;
+    width: 444px;
+    height: 327px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.pembungkus{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bawah{
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+}
+
+.password{
+    font-family: 'Space Grotesk';
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 31px;
+    margin-left: 129px;
+    margin-top: 24px;
+}
+
+/* pop up pw*/
+.back-hitam{
+    position: fixed;
+    width : 100%;
+    height : 100%;
+    background: rgba(0, 0, 0, 0.516);
+    visibility: hidden;
+    display : flex;
+    justify-content : center;
+    align-items:center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.back-hitam:target {
+    visibility: visible;
+}
+
+.back-popup:hover{
+    background-color: #3c3c3cb8;
+    transition : 0.2s
+}
+
+.kotak{
+    padding : 15px;
+    border : 2px solid #000000;
+    background-color : #3B494A;
+    border-radius : 30px;
+    padding : 25px;
+    display: flex;
+    justify-content : center;
+}
+
+.anak-judul{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.input-form{
+    margin-top : 25px;
+    
+}
+
+.input-form2{
+    border-radius : 5px;
+    padding : 13px;
+    height : 24.63px;
+    width : 454px;
+    font-size : 22px;
+    color : white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border : none;
+    margin-top : 10px;
+ }
+
+ .tombol-popup{
+    width: 171px;
+    height: 52px;
+    border-radius: 15px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ .deret-bawah{
+    margin-top : 25px;
+ }
+
+ .red{
+    color : white;
+    background-color :red;
+ }
+
+ .blue{
+    color : white;
+    background-color: blue;
+ }
+/* pop up pw*/
+
+/* pop top up */
+.kotak-topup{
+    width: 400px;
+    /* height: 897px; */
+    padding : 15px;
+    background-color : #3B494A;
+    border-radius : 30px;
+    padding : 25px 50px;
+    display: flex;
+    justify-content : center;
+}
+
+.img-qr{
+    width : 300px; 
+    height : 300px;
+}
+
+.img-logo{
+    width : 70px;
+    height : 70px;
+}
+
+.mt-30{
+    margin-top : 30px;
+}
+
+.topupback{
+    padding : 10px 55px;
+    border-radius: 10px;
+    background-color: #878787;
+}
+
+.topupback:hover{
+    background-color: #565656;
+}
+
+/* pop top up */
+
+/* pop up logout */
+.button-yesno{
+    padding : 15px;
+    width : 150px;
+    border-radius: 15px;
+    font-size : 18px;
+    text-align : center;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.mt-40{
+    margin-top : 40px;
+}
+/* pop up logout */
+
+.button{
+    width: 240px;
+    height: 52px;
+    margin-left: 129px;
+    margin-top: 16px;
+    border-radius: 15px;
+    background: #2f58cd;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+.change{
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    width: 175px;
+    text-align: center;
+}
+
+.button-2{
+    width: 240px;
+    height: 52px;
+    margin-left: 129px;
+    margin-top: 16px;
+    border-radius: 15px;
+    background: #e90c0c;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+footer{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top : 50px;
+    margin-left : 50px;
+    margin-right: 50px;
+}
+
+.nav-link-footer{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color : white
+}
+
+.judul-ocamp{
+    font-size : 28px;
+    margin-left : 15px;
+}
